@@ -1,0 +1,52 @@
+th{
+    border: 1px solid black;
+    border-radius:5px;
+}
+
+h3{
+    align-items: left;
+    display: grid;
+    justify-content: center;
+}
+
+.jan, .feb, .mar, .apr, .may, .jun, .jul, .aug, .sept, .oct, .nov, .dec{
+    align-items: left;
+    display: inline-grid;
+    justify-content: left;
+}
+
+.feb1, .mar1, .apr1, .may1, .jun1, .jul1, .aug1, .sept1, .nov1, .dec1{
+    border: none;
+    border-spacing: 0px;
+}
+
+div{
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 18px;
+}
+
+.jan1, .feb2, .mar2, .may2, .jun2, .aug2, .sept2, .oct2, .nov2{
+    width: 26.7px;
+    height: 20.5px;
+    border: none;
+}
+
+
+.cal{
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.title{
+    border:none;
+}
+
+#hover:hover{
+    transition: 1s;
+}
